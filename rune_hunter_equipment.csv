@@ -1,0 +1,65 @@
+Category,Item,Damage / Rating,Slots,Treasure,Notes
+WEAPONS,Unarmed,d4,-,-,Natural attack; Chimera with natural weapons use d4
+WEAPONS,Dagger / knife,d4,1,<1,Concealable; thrown uses AGI
+WEAPONS,Short sword / hand axe,d4,1,<1,Thrown axe uses STR
+WEAPONS,Sword / saber / mace,d6,1,<1,-
+WEAPONS,Spear,d6,1,<1,Brace action: +2 ATK vs mounted charge
+WEAPONS,Staff,d6,1,<1,Two-handed
+WEAPONS,Greatsword / greataxe,d8,1,1,Two-handed
+WEAPONS,War hammer / maul,d8,1,1,Two-handed
+WEAPONS,Bow,d6,1,1,Ranged; needs quiver (1 slot)
+WEAPONS,Crossbow,d8,1,1,Ranged; reload costs action (fires every other round)
+WEAPONS,Throwing knife / dart,d4,<1,<1,Ranged; AGI; 3 per slot
+WEAPONS,Pistol (relic),d6,1,3,Ranged; ignores mundane armor; reload; ammo scarce
+WEAPONS,Rifle / carbine (relic),d8,1,5,Ranged; ignores mundane armor; reload; ammo scarce
+WEAPONS,Energy blade (relic),d8,1,5,Bypasses mundane armor
+ARMOR,Shield,-,1 hand,1,+1 DEF when no AGI bonus applies
+ARMOR,Light armor,AR 1,1 body,1,-
+ARMOR,Medium armor,AR 2,1 body,2,No stealth
+ARMOR,Heavy armor,AR 3,2 body,3,No stealth; no swimming
+ARMOR,Relic light suit,AR 1,1 body,3,May have additional properties
+ARMOR,Relic heavy suit,AR 3,2 body,5,May have additional properties
+GEAR,Rations (1 week),-, 1,1,Feeds 1 character 7 days
+GEAR,Torch (x3),-,1,<1,6 turns each
+GEAR,Lantern,-,1,<1,Longer burn; needs oil
+GEAR,Oil flask,-,1,<1,Fuel or improvised weapon (d4 fire damage)
+GEAR,Rope (50ft),-,1,<1,-
+GEAR,Grappling hook,-,1,<1,-
+GEAR,Crowbar,-,1,<1,+1 to relevant STR tasks
+GEAR,Lockpicks,-,1,1,Required for lock tasks
+GEAR,Healing herbs / poultice,-,1,1,Treat 1 minor injury (1 slot) in the field; injuries only
+GEAR,Antitoxin,-,<1,1,+2 to saves vs poison and disease
+GEAR,10ft pole,-,1,<1,-
+GEAR,Chalk / charcoal,-,<1,<1,-
+GEAR,Mirror (small),-,<1,<1,-
+GEAR,Tent (2-person),-,1,<1,-
+GEAR,Bedroll,-,1,<1,-
+GEAR,Pack / backpack,-,-,<1,Required to use general inventory slots
+GEAR,Saddlebag,-,-,<1,+4 slots while mounted
+GEAR,Healer's kit,-,1,1,Required to treat injuries in the field
+GEAR,Surgical tools,-,1,2,Treat moderate injuries without full facilities
+GEAR,Runebook (blank),-,1,1,Required for Casters; holds known runes and invocations
+GEAR,Scroll (any rune),-,<1,1-3,Single use; cost by rune tier
+GEAR,Spirit vessel,-,1,1-3,Shaman: holds a bound spirit; backup MP source
+GEAR,Relic power cell,-,<1,1,Fuel for relic tech; scarce
+GEAR,Relic data tablet,-,1,2,May contain maps schematics or lore
+GEAR,Climbing kit,-,1,1,+1 to climbing tasks
+GEAR,Disguise kit,-,1,1,+1 to relevant deception tasks
+MOUNTS,Horse (riding),-,-,2,2 hexes/day on plains
+MOUNTS,Horse (war),-,-,3,2 hexes/day; combat trained
+MOUNTS,Mule / pack animal,-,-,1,1 hex/day; carries 10 slots
+MOUNTS,Relic vehicle (ground),-,-,5+,3+ hexes/day on roads; needs fuel
+MOUNTS,Relic vehicle (air),-,-,10+,Fast; very rare; needs fuel
+MOUNTS,Boat,-,-,3,River/coastal
+MOUNTS,Ship,-,-,10+,Ocean; needs crew
+SERVICES,1 week lodging & resupply,-,-,1,Per character
+SERVICES,Injury treatment (per slot),-,-,1,Healer or surgeon
+SERVICES,Curse/hex removal (per slot),-,-,1-3,Temple or priest
+SERVICES,Disease treatment (per slot),-,-,1,Herbalist or alchemist
+SERVICES,Jinx removal,-,-,varies,Requires narrative resolution; not just treasure
+SERVICES,Hireling (common per month),-,-,1,Porter; torchbearer; guard
+SERVICES,Hireling (skilled per month),-,-,2,Guide; interpreter; specialist
+SERVICES,NPC spellcasting (per tier),-,-,1-2,Rare outside cities
+SERVICES,Relic tech repair,-,-,2-5,Requires technician; parts extra
+SERVICES,Passage (short),-,-,1,-
+SERVICES,Passage (long),-,-,2-3,-
