@@ -1,8 +1,7 @@
 ---
-title: Home
+title: Rune Hunter
 layout: home
 nav_order: 1
-parent: null
 ---
 
 # Rune Hunter
