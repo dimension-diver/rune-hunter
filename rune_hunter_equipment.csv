@@ -4,22 +4,23 @@ WEAPONS,Dagger / knife,d4,1,<1,Concealable; thrown uses AGI
 WEAPONS,Short sword / hand axe,d4,1,<1,Thrown axe uses STR
 WEAPONS,Sword / saber / mace,d6,1,<1,-
 WEAPONS,Spear,d6,1,<1,Brace action: +2 ATK vs mounted charge
-WEAPONS,Staff,d6,1,<1,Two-handed
+WEAPONS,Staff,d6,1,<1,Two-handed; steps up to d8
 WEAPONS,Greatsword / greataxe,d8,1,1,Two-handed
 WEAPONS,War hammer / maul,d8,1,1,Two-handed
 WEAPONS,Bow,d6,1,1,Ranged; needs quiver (1 slot)
 WEAPONS,Crossbow,d8,1,1,Ranged; reload costs action (fires every other round)
 WEAPONS,Throwing knife / dart,d4,<1,<1,Ranged; AGI; 3 per slot
-WEAPONS,Pistol (relic),d6,1,3,Ranged; ignores mundane armor; reload; ammo scarce
-WEAPONS,Rifle / carbine (relic),d8,1,5,Ranged; ignores mundane armor; reload; ammo scarce
-WEAPONS,Energy blade (relic),d8,1,5,Bypasses mundane armor
-ARMOR,Shield,-,1 hand,1,+1 DEF when no AGI bonus applies
+WEAPONS,Pistol (relic),d6,1,3,Ranged; bypasses mundane AR; reload; ammo scarce
+WEAPONS,Rifle / carbine (relic),d8,1,5,Ranged; bypasses mundane AR; reload; ammo scarce
+WEAPONS,Energy blade (relic),d8,1,5,Bypasses mundane AR
 ARMOR,Light armor,AR 1,1 body,1,-
-ARMOR,Medium armor,AR 2,1 body,2,No stealth
-ARMOR,Heavy armor,AR 3,2 body,3,No stealth; no swimming
+ARMOR,Heavy armor,AR 2,2 body,3,"No stealth, no swimming. Negates AGI mod to DEF. Casters: enemies +2 to saves."
+ARMOR,Magic armor,AR 3+,varies,5+,-
+ARMOR,Shield,-,1 hand,1,+1 DEF
+ARMOR,Heavy shield,-,1 hand,2,+2 DEF
 ARMOR,Relic light suit,AR 1,1 body,3,May have additional properties
-ARMOR,Relic heavy suit,AR 3,2 body,5,May have additional properties
-GEAR,Rations (1 week),-, 1,1,Feeds 1 character 7 days
+ARMOR,Relic heavy suit,AR 2,2 body,5,May have additional properties
+GEAR,Rations (1 week),-,1,1,Feeds 1 character 7 days
 GEAR,Torch (x3),-,1,<1,6 turns each
 GEAR,Lantern,-,1,<1,Longer burn; needs oil
 GEAR,Oil flask,-,1,<1,Fuel or improvised weapon (d4 fire damage)
@@ -38,9 +39,10 @@ GEAR,Pack / backpack,-,-,<1,Required to use general inventory slots
 GEAR,Saddlebag,-,-,<1,+4 slots while mounted
 GEAR,Healer's kit,-,1,1,Required to treat injuries in the field
 GEAR,Surgical tools,-,1,2,Treat moderate injuries without full facilities
-GEAR,Runebook (blank),-,1,1,Required for Casters; holds known runes and invocations
-GEAR,Scroll (any rune),-,<1,1-3,Single use; cost by rune tier
-GEAR,Spirit vessel,-,1,1-3,Shaman: holds a bound spirit; backup MP source
+GEAR,Spellbook (blank),-,1,1,Required for Casters; holds known spells
+GEAR,Scroll (any spell),-,<1,1-3,Single use; cost by spell tier
+GEAR,Spirit vessel,-,1,1-3,"Shaman: holds a bound spirit; backup spell charge in spirit-poor environments"
+GEAR,Staff / focus,-,1,1,"Casters: charge with one spell per day; anyone can activate"
 GEAR,Relic power cell,-,<1,1,Fuel for relic tech; scarce
 GEAR,Relic data tablet,-,1,2,May contain maps schematics or lore
 GEAR,Climbing kit,-,1,1,+1 to climbing tasks
@@ -57,8 +59,8 @@ SERVICES,Injury treatment (per slot),-,-,1,Healer or surgeon
 SERVICES,Curse/hex removal (per slot),-,-,1-3,Temple or priest
 SERVICES,Disease treatment (per slot),-,-,1,Herbalist or alchemist
 SERVICES,Jinx removal,-,-,varies,Requires narrative resolution; not just treasure
-SERVICES,Hireling (common per month),-,-,1,Porter; torchbearer; guard
-SERVICES,Hireling (skilled per month),-,-,2,Guide; interpreter; specialist
+SERVICES,Hireling (common per month),-,-,1,"Porter, torchbearer, guard"
+SERVICES,Hireling (skilled per month),-,-,2,"Guide, interpreter, specialist"
 SERVICES,NPC spellcasting (per tier),-,-,1-2,Rare outside cities
 SERVICES,Relic tech repair,-,-,2-5,Requires technician; parts extra
 SERVICES,Passage (short),-,-,1,-

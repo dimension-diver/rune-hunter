@@ -14,7 +14,7 @@ Key mechanical decisions and the reasoning behind them. Reference this before re
 
 **Player-facing defense rolls.** When a monster attacks, the targeted player rolls d20 + DEF vs 10 + monster ATK. This keeps all dice in player hands and makes split attacks exciting -- all targeted players roll simultaneously.
 
-**Split Attack (Hunter only).** Divide ATK bonus across multiple targets, minimum +1 each, different targets only. Magic weapon bonus adds to the budget. This is Hunter's signature feature and the reason Fighter ATK = level rather than ceil(level/2) -- each level gain is a concrete reward (one more potential split target).
+**Split Attack (Hunter only).** Divide ATK bonus across multiple targets, minimum +1 each, different targets only. Magic weapon bonus adds to the budget. This is Hunter's signature feature.
 
 **Sneak Attack (Delver).** +4 ATK and damage multiplier (x2/x3/x4/x5 at levels 1/4/7/10) when attacking with positional advantage. Applies to melee and ranged. Referee judges the fiction.
 
