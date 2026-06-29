@@ -1,3 +1,10 @@
+---
+title: Character Creation
+layout: default
+parent: Player Rules
+nav_order: 1
+---
+
 ## Character Creation
 
 ### 1. Roll ability scores
