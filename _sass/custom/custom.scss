@@ -1,28 +1,41 @@
+/* ---------- Content width ---------- */
+
+.main-content-wrap {
+  max-width: 48rem;
+}
+
+/* ---------- Tables ---------- */
+
 table {
-  width: 100%;
+  width: auto;
+  margin: 1.5rem auto;
   border-collapse: collapse;
-  margin: 1rem 0;
   font-size: 0.95rem;
-  line-height: 1.4;
 }
 
 th {
-  text-align: left;
-  font-weight: 600;
-  padding: 0.3rem 0;
-  border-bottom: 1px solid var(--border-color);
+  padding: 0.35rem 1rem;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: 2px solid var(--border-color);
   background: transparent;
 }
 
 td {
-  padding: 0.25rem 0;
-  border: none;
+  padding: 0.3rem 1rem;
+  text-align: center;
 }
 
-tr {
-  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+tbody tr {
+  border-bottom: 1px solid rgba(255,255,255,.12);
 }
 
-tr:last-child {
+tbody tr:last-child {
   border-bottom: none;
+}
+
+/* Left-align the first column when it's descriptive text */
+td:first-child,
+th:first-child {
+  text-align: left;
 }
