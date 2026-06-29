@@ -1,16 +1,28 @@
 table {
-  border-collapse: collapse;
   width: 100%;
+  border-collapse: collapse;
   margin: 1rem 0;
   font-size: 0.95rem;
-}
-
-th, td {
-  border: 1px solid var(--border-color);
-  padding: 0.6rem 0.8rem;
+  line-height: 1.4;
 }
 
 th {
-  background: var(--sidebar-color);
+  text-align: left;
   font-weight: 600;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--border-color);
+  background: transparent;
+}
+
+td {
+  padding: 0.25rem 0;
+  border: none;
+}
+
+tr {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+tr:last-child {
+  border-bottom: none;
 }
