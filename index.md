@@ -1,10 +1,11 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 
-# Rune Delver
+# Rune Hunter
 
-Rune Delver is my home fantasy adventure game.
+Rune Hunter is my home fantasy adventure game.
 
 This site contains all the rules and resources to play.
