@@ -1,8 +1,7 @@
 ---
 title: Player Rules
+layout: default
 nav_order: 2
-parent: Rune Hunter
-has_children: true
 ---
 
 # Player Rules
