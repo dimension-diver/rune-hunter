@@ -1,0 +1,16 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  border: 1px solid var(--border-color);
+  padding: 0.6rem 0.8rem;
+}
+
+th {
+  background: var(--sidebar-color);
+  font-weight: 600;
+}
