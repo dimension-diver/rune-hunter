@@ -93,6 +93,7 @@ DEPENDENCIES
   jekyll (~> 4.4.1)
   just-the-docs (= 0.12.0)
   logger (~> 1.4)
+  webrick (~> 1.9)
 
 BUNDLED WITH
    2.5.9

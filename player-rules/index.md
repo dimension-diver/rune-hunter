@@ -1,10 +1,9 @@
 ---
 title: Player Rules
-layout: default
-nav_order: 2
+nav_order: 1
 has_children: true
 ---
 
 # Player Rules
 
-Rules for creating and playing characters in Rune Delver.
+Character creation procedure and rules reference for players.
