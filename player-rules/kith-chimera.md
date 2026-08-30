@@ -1,87 +1,26 @@
 ---
 title: Kith & Chimera
 parent: Player Rules
-nav_order: 3
+nav_order: 2
 ---
 
 # Kith & Chimera
 
-Your genos is what you look like and where you come from. It gives you one or more mechanical traits. Everything else -- how people react to you, what environments suit you, what doors open or close -- is handled by the referee applying +1 or -1 when it genuinely matters.
+Long ago, the Elders used the power of Runes to mold and shape life, and the very planet itself, until it led to their catastrophic collapse. The Kith and Chimera Clans of the world are what's left in the wake of the end of the Elders. Kith most closely resemble the Elders, and some trace their lineage back to the lines of ancient lords and emperors. Chimera are the remnants of the Elders' many failed experiments.
 
-The named genos below are the ones the setting foregrounds. There are more. If you want to play something not on this list, describe what you are, identify what has mechanical weight, and proceed.
+Clan is fully independent of class — any of the ten below can pair with any of the seven classes in Section 4. Every clan with claws or fangs fights unarmed as a natural one-handed weapon, no penalty.
 
-**Natural weapons:** any genos with claws, a bite, or similar deals d4 unarmed damage. This is not a trait. It is just true.
+Chimera clans think of themselves in terms of clan and tribe — a Ctarl calls themselves part of the **Ctarl Clan**, and so on down the list. Kith don't think in those terms about themselves, but Chimera commonly refer to Kith collectively as the "**Kith Clan**" anyway, whether Kith like it or not.
 
-Roll d20 at character creation: 1-10 Chimera, 11-20 Kith.
-
----
-
-## Kith
-
-Kith are the human analogs -- the varied peoples of the world who look clearly like us, if not quite. Most institutions, most social assumptions, most doors in the civilized world were built around people who look like Kith.
-
-**Trait -- Adaptability:** once per session, reroll any one die roll that affects you and take the new result.
-
----
-
-## Chimera
-
-Chimera are the beast-touched peoples. Choose or roll one of the following.
-
----
-
-**Ctarl** are cat-people: graceful, long-lived, at home in deep forest. They look more Kith than most Chimera, which gets them into places others cannot go. Their Casters are almost always Espers.
-
-Never take fall damage. Climbing tasks succeed on 1-3 in 6. Claws deal d4 unarmed damage.
-
----
-
-**Kobold** are subterranean mole and rat people -- the closest thing to a dwarf analog in this world. They have been delving ancient ruins longer than anyone else.
-
-Always know direction and approximate depth underground. +1 to d6 rolls involving stonework, tunnels, or structural assessment.
-
----
-
-**Goblin** are bat people who navigate by echolocation. Their sound-sense is biology, not magic, and works in complete darkness within 30ft. Rarely seen above ground by choice.
-
-Can navigate and detect moving creatures in darkness; loud noise interferes. +1 to initiative from sound awareness.
-
----
-
-**Zora** are aquatic fish and sea people. Coastal and river Zora may look quite different but share the water.
-
-Breathe and move freely underwater at full speed. No penalties in any aquatic environment.
-
----
-
-**Rito** are bird people who can fly. Light-boned and hollow-lunged, they are found in high places: mountain settlements, coastal cliffs, tall ruins.
-
-Can fly at normal movement speed while carrying 4 or fewer inventory slots. Each slot above 4 reduces flight to gliding. Above 6 slots, no flight.
-
----
-
-**Kreen** are insectoid people who live in small tight-knit packs in inhospitable territory: deep desert, blighted land, places nothing else survives.
-
-AR 1 with no armor slot required. Cannot be surprised. +1 to detect hidden creatures or ambushes by scent and vibration.
-
----
-
-**Ronso** are large bestial cat people built for endurance and direct confrontation. Some have a horn or heavy brow ridge.
-
-Carry 2 additional inventory slots without encumbrance penalty. Once per encounter, move through an enemy zone without triggering a free attack.
-
----
-
-**Ygguana** are lizard people created by the Ygg: a vast, slow alien organism that predates the civilization being delved. The Ygg still exists in deep marshes and ancient forests.
-
-Breathe and move freely underwater. Hold breath for extraordinary duration above water. +1 to saves against toxic effects.
-
----
-
-**Wolf People** are pack hunters defined by an extraordinary sense of smell.
-
-Cannot be surprised by anything with a scent unless specifically masked. +1 to tracking and detection tasks. Locate hidden creatures by scent alone within 30ft in darkness or fog. Bite deals d4 unarmed damage.
-
----
-
-*The referee applies +1 or -1 whenever your genos is meaningfully relevant: a Rito in a cave, a Zora in a desert, a Kreen walking into a civilized settlement. No rule needed. Just attention to fiction.*
+| Clan | Trait | Drawback |
+|---|---|---|
+| Kith | No fixed trait — roll for your ability instead of choosing it (Section 2) | — |
+| Ctarl | The party gains +1 to its initiative roll whenever a Ctarl is present (Section 9); may roll saving dice to take no fall damage where a cat-like landing is plausible (referee's call), otherwise the standard half-damage-on-save applies | Water aversion — genuine discomfort in or near water |
+| Kobold | +1 saving dice, +2 vs. mechanical traps | Uncomfortable in open, sunlit surface terrain |
+| Goblin | Detects movement in total darkness within 30' by echolocation | Loud noise negates it |
+| Zora | Telepathic communication and ambient emotion-sensing with any mind within 30' underwater — breathes water and swims effortlessly as a matter of course, never triggering drowning rules | On land, range collapses to touch only |
+| Rito | Flies at full speed | Only possible with 4 free pack slots — flight requires traveling light |
+| Kreen | Regenerates a lost limb within 1d6 days (flavor); heals +1 HP per day even without resting (mechanical) | Alien, unsettling appearance — some NPCs react warily on sight |
+| Ygguana | Immune to poison and disease from mundane sources or weak creatures — strong swimmer and can hold their breath a long time as a matter of course, never troubled by drowning rules | Cold-blooded: sluggish and slowed in cold environments |
+| Wolf People | Detects hidden creatures by scent within 30' in darkness or fog; cannot be surprised by anything with a scent | Strong or overpowering smells nearby disrupt or distract them |
+| Ronso | Fights with both claws as natural weapons for +1 damage, dividing that damage among multiple targets in melee range (Ambidexterity, applied racially) | No shield, and no more than leather armor, while fighting this way |

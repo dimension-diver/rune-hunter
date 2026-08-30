@@ -6,95 +6,66 @@ nav_order: 4
 
 # Classes
 
-Choose a class below. Each core class is self-contained. Optional classes follow at the end of this section -- each functions as one of the three core classes with specific differences noted.
+A quick guide if you're not sure where to start:
 
----
+| If you want to... | Play |
+|---|---|
+| Hit things hard and often, wear whatever you want | Hunter |
+| Sneak, steal, and land a devastating single strike | Delver |
+| Cast the widest range of spells and craft magic items | Caster |
+| Sneak and cast a handful of specialized spells | Seeker |
+| Cast nature magic and handle wild creatures | Shaman |
+| Fight from range, track, and strike from ambush | Ranger |
+| Fight bare-handed and channel magic through your fists | Striker |
 
-## Hunter
+**Combatant** classes fight on the Combatant attack table (Section 9); **Non-combatant** classes fight on the gentler Non-combatant table. Combat moves and their full effects are detailed in Section 9 — this section only lists which moves each class can access and when.
 
-Hunters are warriors who solve problems with steel, trained to fight multiple opponents at once and wear down anything that bleeds. They are the most durable class in direct combat and the backbone of any expedition going somewhere dangerous.
+### Hunter
+- **HP:** 10, +2/level. **Table:** Combatant.
+- **Armor/weapons:** any.
+- **Attack bonus:** +1 on all attack rolls, from 1st level.
+- **Combat moves:** full list, gaining 1 at 3rd, 2 at 6th, 3 at 9th (one active per round).
+- **9th level:** two melee attacks per round, against a single opponent or divided between targets in range.
 
-May divide their ATK bonus across multiple targets in a single round: a Hunter with ATK +4 can hit one target at +4, two at +2/+2, or four at +1/+1/+1/+1. Each split must target a different enemy. Magic weapon bonuses add to the budget. Heavy armor, any weapon. d8 HD.
+### Delver
+- **HP:** 8, +1/level. **Table:** Non-combatant.
+- **Armor/weapons:** leather only; any one-handed weapon.
+- **Stealth:** +1 every 3 levels, up to +3 at 9th. Always counts as having Dexterity for non-combat actions (Section 10), regardless of personal ability — this matters most before 3rd level, when the stealth bonus hasn't kicked in yet.
+- **Backstab:** a flat, guaranteed hit (no attack roll) for double the Non-combatant table's max damage at 3rd, triple at 6th, quadruple at 9th, plus +2 to hit.
+- **Combat moves:** none.
 
-STR 15+: +1 to all melee damage.
+### Caster
+- **HP:** 6, +1/level. **Table:** Non-combatant.
+- **Armor/weapons:** none; dagger or staff, or any one-handed weapon.
+- **Magic:** the widest MP pool and spell list of any class. MP starts at 2 and rises by 2 every odd level (2/4/6/8/10 at 1st/3rd/5th/7th/9th); gains a new spell every level.
+- **Crafting:** unlocked in stages — potions and scrolls at 3rd, rings/staves/wands at 6th, armor/weapons/mixed magic at 9th (see Section 5 for costs).
+- **Item use:** full access to and crafting of magic items of every kind.
 
-| Level | ATK | DEF |
-|-------|-----|-----|
-| 1  | +1 | 11 |
-| 2  | +2 | 11 |
-| 3  | +2 | 12 |
-| 4  | +3 | 12 |
-| 5  | +4 | 13 |
-| 6  | +4 | 13 |
-| 7  | +5 | 14 |
-| 8  | +6 | 14 |
-| 9  | +6 | 15 |
-| 10 | +7 | 15 |
+### Seeker
+- Shares Delver's HP, table, stealth progression, and weapon rules — everything except Backstab.
+- **Magic:** draws from Caster's full spell list, but with a smaller MP pool and a slower acquisition rate — new spells at 3rd, 6th, and 9th level rather than every level.
+- **Item use:** scrolls, wands, and other magic items that fit a Seeker's style.
 
----
+### Shaman
+- **HP:** 8, +1/level. **Table:** Non-combatant.
+- **Armor/weapons:** none; staff only.
+- **Magic:** draws from Caster's full spell list, with the same MP formula as Caster (starts at 2, +2 every odd level, new spell every level).
+- **Wildlife:** can freely attempt to pacify or repel wild creatures at any time, no cost.
+- **Item use:** full use of magic items, but no crafting.
 
-## Delver
+### Ranger
+- **HP:** 8, +2/level. **Table:** Combatant, no roll bonus.
+- **Armor/weapons:** no heavy armor or shields; no two-handed melee weapons (ranged two-handers are fine).
+- **Tracking:** +1 every 3 levels.
+- **Sneak attack (ranged only):** a flat, guaranteed hit for double the Combatant table's max damage at 3rd, triple at 6th, quadruple at 9th.
+- **Combat moves:** full list, same schedule as Hunter.
 
-Delvers are scouts, thieves, and opportunists who survive by never being where the enemy expects. They hit hard from the shadows, navigate environments that kill less cautious explorers, and find the things others miss. Light armor, any weapon. d6 HD.
+### Striker
+- **HP:** 8, +2/level. **Table:** Combatant.
+- **Armor/weapons:** none; bare hands or quarterstaff.
+- **Combat moves:** Dodge, Block, Parry, Smash, and Sweep only (Sweep needs a quarterstaff), same 3rd/6th/9th schedule, one active per round.
+- **Fighting style:** bare hands deal +1 damage, a quarterstaff deals +2 — but only bare-handed strikes can deliver a spell.
+- **Spell-on-hit:** on a successful bare-handed hit, choose normal damage or spend 1 MP to deliver a declared touch/self spell instead. A natural 12 does both, and the spell costs nothing that round.
+- **Magic:** draws from Caster's full spell list, restricted to self/touch-range effects, declared before initiative like every other caster. A smaller MP pool, and new spells only at 3rd, 6th, and 9th level, same rate as Seeker (Shaman is a full caster like Caster, gaining a spell every level instead).
 
-Has a 2-in-6 chance to pick locks, move silently, find traps, and climb -- increasing to 3-in-6 at level 3, 4-in-6 at level 7, and 5-in-6 at level 10. Attacks from stealth deal x2 damage with +4 to hit, increasing to x3 at level 4, x4 at level 7, and x5 at level 10. Can read scrolls and attempt magic items. May move through an enemy zone without triggering a free attack when in light armor or unencumbered.
-
-AGI 15+: +1 damage with light and ranged weapons.
-
-| Level | ATK | DEF | Skill | Sneak |
-|-------|-----|-----|-------|-------|
-| 1  | +0 | 11 | 1-2 | x2 +4 |
-| 2  | +1 | 11 | 1-2 | x2 +4 |
-| 3  | +1 | 12 | 1-3 | x2 +4 |
-| 4  | +2 | 12 | 1-3 | x3 +4 |
-| 5  | +2 | 13 | 1-3 | x3 +4 |
-| 6  | +3 | 13 | 1-3 | x3 +4 |
-| 7  | +3 | 14 | 1-4 | x4 +4 |
-| 8  | +4 | 14 | 1-4 | x4 +4 |
-| 9  | +4 | 15 | 1-4 | x4 +4 |
-| 10 | +5 | 15 | 1-5 | x5 +4 |
-
----
-
-## Caster
-
-Casters are scholars of the rune arts who have traded martial training for access to spells that can reshape a fight entirely. Fragile in direct combat, devastating at range and through preparation. No armor without penalty, any weapon. d4 HD.
-
-Prepares spells from a spellbook each day using spell slots. Identifies and crafts magic items, reads and scribes scrolls. Wearing armor adds its AR value to enemy saves against the Caster's spells.
-
-WIS 15+: one extra T1 slot per day.
-
-| Level | ATK | DEF | T1 | T2 | T3 | T4 | T5 |
-|-------|-----|-----|----|----|----|----|-----|
-| 1  | +0 | 11 | 1  | -- | -- | -- | -- |
-| 2  | +0 | 11 | 2  | -- | -- | -- | -- |
-| 3  | +0 | 12 | 3  | 1  | -- | -- | -- |
-| 4  | +1 | 12 | 4  | 2  | -- | -- | -- |
-| 5  | +1 | 13 | 4  | 2  | 1  | -- | -- |
-| 6  | +1 | 13 | 4  | 2  | 2  | -- | -- |
-| 7  | +2 | 14 | 4  | 3  | 2  | 1  | -- |
-| 8  | +2 | 14 | 4  | 3  | 3  | 2  | -- |
-| 9  | +2 | 15 | 4  | 3  | 3  | 2  | 1  |
-| 10 | +3 | 15 | 4  | 4  | 3  | 3  | 2  |
-
-For spell traditions, starting spells, and the full rune list, see [Magic Rules](../magic-rules/index.md).
-
----
-
-## Optional Classes
-
-The classes below may be used with referee permission. Each functions as one of the three core classes with specific differences noted. Where a rule is not mentioned, assume the core class rule applies.
-
----
-
-**Noble (Hunter variant):** Nobles are warriors of rank and education who combine martial skill with enough arcane literacy to activate the relics they find. Functions as a Hunter, but may read scrolls and attempt to activate wands and rods on 1-3 in 6. STR 15+ no longer grants the melee damage bonus.
-
-**Striker (Hunter variant):** Strikers are unarmed martial artists who channel rune energy through their body, fusing physical and magical training into a single discipline. Functions as a Hunter with the following changes: wears no armor (loses DEF +2 if any armor worn); fists deal d6; Split Attack applies to unarmed strikes only. Casts runes as a Caster two levels lower, but only targeting self or delivered through a successful melee strike. Element or domain chosen at creation. WIS 15+ grants one extra T1 slot per day.
-
-**Ranger (Delver variant):** Rangers are hunters, trackers, and wilderness survivors who have mastered the natural world the way a Delver masters dungeons. Functions as a Delver, but specialist skills cover wilderness survival, tracking, foraging, and calming animals instead of dungeon tools. Stealth damage bonus and AGI 15+ bonus apply normally.
-
-**Seeker (Delver variant):** Seekers are lore-hunters and ruin-delvers equally at home picking a lock or deciphering an inscription. Functions as a Delver, but trades the stealth damage bonus and AGI 15+ bonus for Runecasting (as a Caster two levels lower), Runecrafting, and the ability to identify and craft magic items. No spell slots until level 3 unless WIS 15+. WIS 15+ grants one extra T1 slot per day.
-
-**Esper (Caster variant):** Espers are spirit-touched wanderers who commune with the unseen world rather than study it, drawing power from negotiation and relationship rather than scholarship. Functions as a Caster, but draws on spirits rather than runes: CHA governs spellcasting instead of WIS, wears light armor without the spellcasting penalty, and knows wilderness skills as a Ranger. Cannot read scrolls or craft magic items. CHA 15+ grants one extra T1 spirit invocation per day.
-
-**Dabbler (Caster variant):** Dabblers are self-taught hedge mages, runic tinkers, and magical autodidacts who never had a proper teacher and never wanted one. Functions as a Caster with the following changes: d6 HD; wears light armor without the spellcasting penalty; cannot identify or craft magic items; gains no bonus from high WIS.
+Casters and Seekers draw on **runic magic** — scholarly, learned, closer to invoking hidden laws of the world than summoning anything. Shamans and Strikers draw on **spirit magic** instead — channeling or briefly hosting primal and elemental forces rather than studying them. All four use the same underlying spell list; this split is flavor only.

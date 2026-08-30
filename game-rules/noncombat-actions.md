@@ -1,54 +1,67 @@
 ---
-title: Non-combat Actions
+title: Movement, Encumbrance, Non-Combat Actions
 parent: Game Rules
 nav_order: 5
 ---
 
-# Non-combat Actions
+# Movement, Encumbrance, Non-Combat Actions
 
-## Task Resolution
+## Movement
 
-When the outcome of an action is uncertain and the stakes matter, roll a d6.
+| Armor | Move | Restrictions |
+|---|---|---|
+| Unarmored | 50'/round | None |
+| Leather | 40'/round | None |
+| Chainmail | 30'/round | No stealth; swims at half speed |
+| Plate mail | 20'/round | Can't swim or use stealth at all |
+| Shield | No penalty | No bows or two-handed melee while equipped |
 
-**Default: 2-in-6.** Roll equal to or under the target number to succeed.
+A character in plate who ends up in the water must roll saving dice every round (cumulative -1 each round) or start drowning. Anyone in armor heavy enough to risk drowning takes 1 hit per round until rescued or they make it out. Water-adapted clans (Section 3) simply never trigger any of this.
 
-| Modifier | Chance |
-|----------|--------|
-| -1 | 1-in-6 |
-| 0 | 2-in-6 |
-| +1 | 3-in-6 |
+## Encumbrance
 
-A relevant genos trait or class ability adds +1. Skills improved through downtime or accomplishment also add +1. Modifiers do not stack beyond +1/-1 in most cases; the referee adjusts the die outright for extreme circumstances.
+Handled entirely by the 10-slot system in Section 5 — there's no separate weight or GP-based encumbrance limit layered on top of it.
 
----
+## Non-Combat Actions
 
-## Special Skills
+Rolled at 8+ on 2d6, modified by conditions. A character attempting an action tied to their own ability rolls at this standard rate; one without the ability can still try, but only at the referee's discretion and a steep penalty.
 
-Some classes handle certain tasks differently from the default d6 roll.
+**Delver and Seeker always count as having Dexterity**, regardless of what ability they rolled or chose — they can attempt any Dexterity-linked action at the standard rate no matter what. If a Delver's or Seeker's own personal ability also happens to be Dexterity, they get an additional +1 to all stealth-related dice.
 
-**Delver skills** (stealth, lockpicking, trapfinding, climbing, and similar specialist tasks) use a dedicated skill rating that improves with level. Other classes attempting the same tasks use the default 1-in-6 chance.
+| Action | Ability | Duration | Speed |
+|---|---|---|---|
+| Bend iron bars, force doors | Strength | — | — |
+| Lift gates | Strength | 1d6 rds | — |
+| Climb walls | Dexterity | — | 10'/round (20' for Delver/Seeker) |
+| Hide/sneak | Dexterity | — | 20'/round (double for Delver/Seeker) |
+| Steal objects | Dexterity | — | — |
+| Hold breath | Constitution | 1d6 rds | — |
+| Swim rough water | Constitution | 1d6 rds | 10'/round |
+| Spot clues, track enemies | Wisdom | — | — |
+| Detect lies | Wisdom | — | — |
+| Recall facts | Intelligence | — | — |
+| Influence others | Charisma | — | — |
+| Find/disarm traps | Dexterity | — | — |
 
-| Level | Delver skill rating |
-|-------|---------------------|
-| 1-2 | 1-2 in 6 |
-| 3-6 | 1-3 in 6 |
-| 7-9 | 1-4 in 6 |
-| 10 | 1-5 in 6 |
+**Modifiers:**
 
-**Ranger skills** cover the same die progression applied to wilderness tasks: tracking, foraging, calming animals, navigating difficult terrain.
+| Condition | Modifier |
+|---|---|
+| Nearly impossible, or lacks the ability entirely | -5 |
+| Under less-than-ideal conditions | -3 |
+| A common task, well-suited character | +1 |
+| Simple task, ideal conditions | +3 |
 
-Other classes attempting tasks outside their specialty default to 1-in-6 unless their genos or background applies.
+## Falling
 
----
+1d6 damage per 20' fallen. Saving dice halve it. Ctarl (Section 3) can roll to avoid it entirely where a cat-like landing makes sense.
 
-## The Die of Fate
+## Traps
 
-The die of fate is the referee's oracle tool: a d6 rolled when the answer to a question depends on circumstance rather than character capability.
+Anyone with Dexterity can attempt to find and disarm a manmade trap before triggering it. Otherwise, a triggered trap requires saving dice: success means no damage (half damage for falling traps specifically). Some traps capture rather than harm — a victim is helpless until rescued, but usually keeps access to weapons or magic depending on the trap.
 
-*Is there a guard at this post? Is the door unlocked? Does the torch last long enough?*
+## Dungeon Time & Random Encounters
 
-**Base:** 1-3 unfavorable, 4-6 favorable. Adjust the range for context: a very likely outcome might only fail on a 1; an unlikely one might only succeed on a 6.
+Exploration runs in **turns** (roughly 10 minutes); combat runs in **rounds**. Movement underground is 120'/turn.
 
-**LUC modifier:** apply the relevant character's LUC modifier to the result. A party with LUC +1 finds things slightly more cooperative.
-
-**Burned Luck:** a player may spend 1 LUC permanently to invoke a favorable outcome without rolling. The door is unlocked. The guard is asleep. Irreversible.
+Check for a random encounter every 2 turns of exploring — 1-in-6 chance. Never run two random encounters in consecutive checks. Draw from the Bestiary's lower tiers (Level 1-3) for these; they should be weak and rarely worth fighting for treasure. Over a typical 4-6 hour session this produces 2-4 encounters on average — enough real attrition to matter, in keeping with HP being a whole-dungeon resource (Section 11) rather than a per-fight one.

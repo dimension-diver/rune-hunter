@@ -6,118 +6,69 @@ nav_order: 2
 
 # Combat
 
-All rolls are player-facing. Players roll for themselves, their hirelings, retainers, and summoned creatures. Monsters never roll.
+## Attack Tables
 
----
+Every attack is a 2d6 roll. Which table you use depends on your class.
 
-## Actions
+| Table | Miss | 1 hit | 2 hits | 3 hits |
+|---|---|---|---|---|
+| Non-combatant | 2-7 | 8-9 | 10-12 | — |
+| Combatant | 2-7 | 8-9 | 10-11 | 12 |
+| Hunter (Combatant +1) | 2-6 | 7-8 | 9-10 | 11+ |
 
-Each round a character may:
-- **Move 1 zone + take an action** (attack, use item, cast spell, task, aid)
-- **Move 2 zones, no action**
+- **Combatant:** Hunter, Ranger, Striker.
+- **Non-combatant:** Delver, Caster, Seeker, Shaman.
+- **Monsters** default to the Combatant table; the referee can override this per creature.
+- A **natural 2 always misses**, no matter what bonuses apply.
+- A **natural 12** still triggers special effects independent of the table — vorpal blades, hammer of thunder, Smash/Thrust bonus damage, and similar.
 
----
+## Weapons and Magic
 
-## Attacking
+- A **magic weapon's bonus** applies to the attack roll itself, shifting which tier a hit lands in — it stacks with any class-based bonus to the roll.
+- A **two-handed weapon** (great axe, great sword, flail, morning star, long/short bow, crossbow, sling, firearm) adds a flat +1 to the final hit count instead, and costs the user their shield.
+- Using a weapon off-label (swinging a bow like a club) keeps the normal handling requirement but only ever deals one-handed damage.
+- Firearms work exactly like bows: two-handed, +1 damage, usable with Volley.
 
-**Melee:** d20 + ATK + STR vs opponent DEF
+## Armor
 
-**Ranged:** d20 + ATK + AGI vs opponent DEF
+Armor adds a flat bonus to your total hits — it never touches the attack roll. Leather +1, chainmail +2, plate +3, shield +1, and these stack.
 
-**Defense:** when a monster attacks, the targeted player rolls d20 + DEF vs 10 + monster ATK. When a monster splits attacks, all targeted players roll simultaneously.
+A magic weapon bonus and a magic armor bonus are not the same thing: a magic weapon shifts the *attacker's* roll, while magic armor just makes the *wearer's* armor act as if rated higher (e.g., +2 magic chainmail behaves like chainmail +4). Neither one is a modifier to the other.
 
-| Result | Effect |
-|--------|--------|
-| Hit | Roll weapon damage, subtract AR, min 1 |
-| Miss | No effect |
-| Natural 20 on attack | Critical: bypass AR, reduce target AR by 1 for fight |
-| Natural 20 on defense | Avoid hit and free counterattack this round |
-| Natural 1 on defense | Monster scores a critical hit against you |
+## Combat Moves
 
----
+Combatant classes with move access gain 1 move at 3rd level, a 2nd at 6th, a 3rd at 9th. Only one move is active per round.
 
-## DEF Modifiers
+| Maneuver | Requirements | Effect |
+|---|---|---|
+| Bash | Shield | Knock a foe back |
+| Block | Shield | Deflect an attack |
+| Cover | Shield | Ignore missile fire (can't fight while doing this) |
+| Dodge | 20' of space | Deflect an attack, no shield needed |
+| Parry | Melee weapon | Deflect or disarm |
+| Smash | Axe or hammer | Bonus damage on a natural 12 |
+| Sweep | Two-handed melee weapon | Divide a hit's damage among multiple foes in range |
+| Thrust | Blade or spear | Bonus damage on a natural 12 |
+| Volley | Long or short bow | Divide a hit's damage among multiple foes in range |
 
-| Source | Modifier |
-|--------|---------|
-| Shield | +1 |
-| Heavy shield | +2 |
-| AGI modifier | +AGI mod (light armor or unarmored only; negated by heavy armor) |
-| Striker unarmored | +2 (lost if any armor worn) |
-| Magic items | As listed |
+## Initiative
 
----
+Each side rolls 1d6 at the start of combat. Higher roll acts first, and that side keeps acting first every round until the fight ends — no re-roll each round.
 
-## Split Attack
+**Modifiers:**
 
-Hunters (and variants that retain Split Attack) may divide their ATK bonus across multiple attacks in a single round, assigning at least +1 to each. Each attack must target a different enemy in range. Maximum attacks equals the ATK bonus. Magic weapon bonuses add to the budget. All attacks resolve in the same round.
+| Condition | Modifier |
+|---|---|
+| Surprised or unprepared | -2 |
+| Heavily outnumbered | -1 |
+| A Ctarl is present in the party | +1 |
 
-*Example: ATK +4 may attack one enemy at +4, two at +2/+2, three at +2/+1/+1, or four at +1/+1/+1/+1.*
+Re-roll initiative if conditions change significantly mid-fight — one side drops below half its starting numbers, a leader dies, reinforcements arrive.
 
----
+## Non-Lethal Combat
 
-## Damage and AR
+Attacking to subdue rather than kill requires a blunt weapon and only works against Kith-sized, living targets — never automatons or undead. Combat resolves normally, but any result of 12 or better forces the target to roll saving dice (at +2) or fall unconscious for 1d6 rounds.
 
-On a hit, roll weapon die + STR modifier. Subtract the target's AR. Minimum 1 damage.
+## Evasion and Pursuit
 
-**Critical hit (natural 20 on attack):** bypass AR entirely and reduce target's AR by 1 for this fight (minimum 0). PC armor degraded this way requires downtime repair.
-
----
-
-## Weapons
-
-| Option | Effect |
-|--------|--------|
-| One-handed | Standard damage die |
-| Two-handed | Step up die (d4 to d6, d6 to d8) |
-| Dual wield | +1 ATK; either weapon's die |
-| Unarmed (Striker) | d6 |
-| Shield | +1 DEF |
-| Heavy shield | +2 DEF |
-
----
-
-## Ranged Combat
-
-Ranged weapons cannot be used in melee. Cannot safely target enemies engaged in melee. Defenders cannot counterattack ranged attackers.
-
-**Ammunition:** 3 bubbles. After each fight roll d6: on 4-6 mark one bubble. All 3 marked = one shot left. Resupply clears all. Rare ammo marks on 3+.
-
----
-
-## Mounted Combat
-
-A mount grants +1 ATK and DEF in melee. A mounted charge (moving at least 1 zone before attacking) grants +2 ATK on the attack.
-
----
-
-## Surprise, Reaction, Morale
-
-**Surprise:** 2-in-6 chance. Surprised side loses their first round of action. Unseen or silent parties add +2 to surprise chance.
-
-**Reaction rolls:** 2d6 + CHA modifier of party spokesperson.
-
-| 2d6 + CHA | Reaction |
-|-----------|----------|
-| 2-3 | Hostile, attacks immediately |
-| 4-5 | Unfriendly, hostile unless party acts carefully |
-| 6-8 | Uncertain, waits and watches |
-| 9-10 | Indifferent, not immediately hostile |
-| 11-12 | Friendly, open to interaction |
-
-Not every encounter is a fight. Apply reaction rolls to all encounters including monsters.
-
-**Morale:** check when monsters take significant losses or face overwhelming odds. Roll 2d6 vs morale score. Fail = flee or surrender.
-
-| Morale | Examples |
-|--------|---------|
-| 6 | Cowardly: goblins, hired thugs |
-| 8 | Average: orcs, guards |
-| 10 | Determined: veterans, fanatics |
-| 12 | Unbreakable: constructs, undead, bound spirits |
-
----
-
-## Fleeing Melee
-
-A character who flees a melee zone gives opponents a free attack before leaving.
+A fleeing party can distract pursuers by dropping food or valuables. Animals stop to eat it roughly 1-in-6 of the time; intelligent enemies stop for dropped treasure about 1-in-3, unless they have a stronger reason to keep chasing (revenge, orders). Any pursuer acts in its own interest — badly outnumbered or heavily wounded enemies break off rather than press a fight they'd lose.

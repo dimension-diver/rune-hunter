@@ -6,40 +6,52 @@ nav_order: 1
 
 # Character Creation
 
-## Abilities
+## 1 - Choose Clan
+Characters are either Kith or one of the many Chimera clans. See [Kith & Chimera](kith-chimera) for additional information on each.
 
-Roll 3d6 for each ability in order:
+- **Kith** — no fixed trait; roll for your one defining ability instead of choosing it.
+- **Ctarl** — cat-folk; the whole party gains +1 initiative whenever one is present.
+- **Kobold** — mole and rat-folk; +1 to saving dice, +2 more against mechanical traps.
+- **Goblin** — bat-folk; detect movement in total darkness by echolocation.
+- **Zora** — fish and sea-folk; telepathic communication and emotion-sensing underwater.
+- **Rito** — bird-folk; fly at full speed.
+- **Kreen** — insectoid; regrows lost limbs, heals +1 HP a day even without rest.
+- **Yguana** — lizard-folk; immune to poison and disease from mundane sources.
+- **Garo** — pack hunters; detect hidden creatures by scent, can't be surprised by anything with a scent.
+- **Ronso** — large cat-folk; fights with both claws as natural weapons, dividing damage among foes in range.
 
-- **Strength (STR)** is physical power and force of arms.
-- **Agility (AGI)** is speed, reflexes, and precision.
-- **Resilience (RES)** is toughness, endurance, and resistance to harm.
-- **Wisdom (WIS)** is knowledge, perception, and mental discipline.
-- **Charm (CHA)** is force of personality, social grace, and spiritual presence.
-- **Luck (LUC)** is fortune, fate, and the universe's disposition toward you.
+## 2 - Abilities
+Kith characters roll their ability randomly on the table below. See [Abilities](abilities) for additional information abilities and their uses.
 
-You may swap any two scores once after rolling. If 3 or more ability scores are below 6, you may choose to reroll. See [Ability Scores](ability-scores).
+| 2d6 | ABILITY | ACTIONS |
+|---|---|---|
+| 2-3 | Strength | Bend bars, lift gates, force doors |
+| 4 | Constitution | Withstand adversity, hold breath, swim rough water |
+| 5-6 | Wisdom | Spot clues, detect lies, track |
+| 7 | Dexterity | Climb walls, hide/sneak, steal small objects |
+| 8-9 | Charisma | Lead and persuade others |
+| 10-11 | Intelligence | Recall lore and legends |
+| 12 | Any two abilities | Choose both, or roll twice more |
 
-## Clan
+## 3 - Class
+Seven classes are available. See [Classes](classes) for full progressions.
 
-Choose your clan or roll it randomly on d20. Kith are similar to humans and are the most politically organized. Chimera are the myriad beast-people of the setting. See [Kith & Chimera](kith-chimera).
+- **Hunter** — armored front-line fighter, the party's most durable class in a fight.
+- **Delver** — stealthy scout and thief with a devastating backstab.
+- **Caster** — the widest spell list and MP pool of any class, plus magic item crafting.
+- **Seeker** — Delver's stealth and chassis, traded for a slower-building spell list.
+- **Shaman** — a nature-flavored full caster who can freely pacify wild creatures.
+- **Ranger** — a restricted fighter built around ranged sneak attacks and tracking.
+- **Striker** — an unarmed martial artist who channels spells through a strike.
 
-- **Kith (1-10)** are similar to humans and the most populous.
-- **Chimera (11-20)** are the myriad beast-kin peoples of the world.
+## Level & Hits
+Characters start with total Hits determined by their class.
 
-If you want to play something else, work with the referee to create your own clan.
-
-## Class
-
-Choose one of the three core classes, **Hunter**, **Delver**, or **Caster** -- or one of their variants. Your class determines your hit dice, combat ability, starting equipment, and access to magic items and spells. See [Classes](classes).
-
-- **Hunter**
-- **Delver**
-- **Caster**
-
-## Hit Points
-
-You start with the maximum hit points from your class's hit die modified by RES.
+## Magic & Spells
+Casters and Shamans begin with 3 spells and 2 magic points (MP). Seekers and Shamans start with 2 spells and 1 magic point (MP).
 
 ## Item Slots
+You have 10 item slots — two hand, two body, six pack. Most items take one slot; some bulkier items take two. Equip your class's starting gear into your slots.
 
-You have 10 item slots -- two hand slots, two body slots, and six pack slots. Most items take up one slots. Some heavy items take up two slots. Equip the gear provided by your class into your slots.
+## Finishing Touches
+Name your character, describe how they look, and consider what led them to life as an adventurer.
