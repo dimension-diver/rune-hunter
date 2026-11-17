@@ -6,6 +6,6 @@ nav_order: 1
 
 # Rune Hunter
 
-My home fantasy adventure game.
+A fantasy adventure game built on White Box: Fantastic Medieval Adventure Game.
 
-This site contains all the rules and resources to play.
+Rules are being rebuilt from the chassis up. Nothing here yet.

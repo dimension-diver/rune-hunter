@@ -1,30 +1,10 @@
 # Rune Hunter
 
-TTRPG design project. JRPG/OSR hybrid.
+TTRPG design project. JRPG/OSR hybrid. Chassis: White Box FMAG.
 
-## Local Development
+Preview: `bundle exec jekyll serve` then http://localhost:4000
 
-Start Jekyll preview:
-```bash
-bundle exec jekyll serve
-```
-Then open http://localhost:4000
-
-## Git Workflow
-
-```bash
-git add -A
-git commit -m "description"
-git push
-```
-
-Pull before starting if changes were made elsewhere:
-```bash
-git pull
-```
-
-## Project Notes
-
-- `_design/decisions.md` -- locked mechanical decisions
-- `_design/todo.md` -- current work in progress
-- Source docs in Google Drive (see decisions.md for IDs)
+## Layout
+- `_design/decisions.md` -- what is locked, and why
+- `_design/todo.md` -- work in progress
+- `_archive/` -- frozen earlier versions (not built by Jekyll)
